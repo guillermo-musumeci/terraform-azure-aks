@@ -70,7 +70,7 @@ resource "azurerm_kubernetes_cluster" "k8s-cluster" {
   }
 
   tags = {
-    Application = var.application
+    Application = var.app_name
     Environment = var.environment
   }
 }
